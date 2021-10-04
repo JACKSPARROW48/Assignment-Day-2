@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS ASSIGNMENT</title>
+    </head>
+    <body>
+    <h1>HELLO SIR</h1>
+       <h2>Performing all kinds of Binary operaters</h2>
+       <h2> Create and print only Even numbers in a Array in form of loop</h2>
+       <h2> Create a array of City names and print in reverse order</h2>
+    
+    
+
+    <script>
+
+      // {1} Binary Operators
+         
+         // 1.Arithmetic OPerator
+
+      var num1=10
+      var num2=21 
+
+      console.log(num1+num2);
+      console.log(num1-num2);
+      console.log(num1/num2);
+      console.log(num1%num2);
+
+
+      var num1=10
+      var num2=21 
+        
+        // 2.Assignment operator 
+         
+     console.log(num1+=num2);
+     console.log(num1-=num2);
+     console.log(num1=num2);
+     console.log(num1/=num2);
+     console.log(num1%=num2);
+
+
+       // 3.Relational/Comparisional Operator
+
+    console.log(num1>num2);
+    console.log(num1<num2);
+    console.log(num1>=num1);
+    console.log(num1<=num2);
+    //preveted not to use
+    console.log(num1==num2);
+    console.log(num1!=num2);
+
+       // 4. Identity Operator
+       
+    console.log(num1===num2);
+    console.log(num1!==num2);
+
+      // 5. Logical Opreator
+
+      var num1=10
+      var num2=21 
+      var num3=31
+
+
+    console.log(num1+=num2 && num3>=num2);
+    console.log(num3<num2 || num1>num2);
+    console.log(!num3>num1);
+
+      //{2} CREATE A ARRAY WITH 10 NUMBERS AND PRINT ONLY THE EVEN NUMBERS WITH FORM THAT ARRAY  
+
+
+    let data=[1,2,3,4,5,6,7,8,9,10];
+         for(let i=0;i<=9;i++)
+         if(i%2!=0)
+         {
+             console.log(data[i])
+         }
+    
+     //{3} CREATE A ARRAY WITH FIVE CITY NAMES AND PRINT IN IT IN REVERSE ORDER 
+
+     let data=["Chennai","Mumbai","Madurai","Bangalore","Delhi"]
+      for(let i=4;i>=0;i--)
+      {
+          console.log(data[i]) 
+              
+          }
+    
+     </script>
+    </body>
+</html>
